@@ -1,19 +1,51 @@
 import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
 import Image from '../components/image'
+import Experience from '../components/experience'
 import SEO from '../components/seo'
+import "../css/typography.css";
 
-<SEO title="Home" keywords={['gatsby', 'application', 'react']} />
+<SEO title="Home" keywords={['srini', 'kumar', 'designer', 'user', 'experience', 'product', 'interaction', 'gatsby', 'application', 'react']} />
 
-# Hi people
 
-Welcome to your new Gatsby site.
+<Image />
 
-Now go build something great.
+<div style={{fontWeight: '400', marginTop: '60px'}}>
+  Srini Kumar is a Product Designer in California w/ a scientific background. <br  />
+  Srini currently leads visual / UI design, UX design, and product direction  <br  />
+  at Hawthorne Advertising, Los Angeles. He has <Experience />+ years of experience.<br  />  <br  />
 
-<div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-  <Image />
+  <Link to="/about/">About -></Link>
+
+  <div class="indexParent">
+    <div class="indexChild">
+      <h2> WORK </h2>
+      <div style={{lineHeight: '2'}}>
+        <Link to="/hawthorne/">Hawthorne Advertising -></Link>  <br  />
+        <Link to="/lab/">Microbiology Lab -></Link>  <br  />
+        <Link to="/doux/">Doux Designs -></Link>
+      </div>
+    </div>
+    
+    <div class="indexChild">
+      <h2> LINKS </h2>
+      <div style={{lineHeight: '2'}}>
+        <a href="mailto:hello@srini.design">hello@srini.design -></a>  <br  />
+        <a href="https://www.linkedin.com/in/srn-kumar/">LinkedIn -></a>  <br  />
+        <a href="https://dribbble.com/srinik">Dribbble -></a>  <br  />
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h2> BLOG </h2>
+    <div style={{lineHeight: '2'}}>
+      <Link to="/1/">Resources -></Link>  <br  />
+    </div>
+  </div>
 </div>
-<Link to="/page-2/">Go to page 2</Link>
+
+
+
+
 
