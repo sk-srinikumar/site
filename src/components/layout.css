@@ -9,6 +9,13 @@ html {
   background-color: #F9F9F9;
 }
 
+.copyright{
+  color: rgba(0, 0, 0, 0.4);
+  margin-top:60px;
+  margin-bottom:180px;
+  font-family: "Inter", sans-serif;
+}
+
 body {
   margin: 0;
   font-size: 14px;

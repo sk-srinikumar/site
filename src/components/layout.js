@@ -2,10 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import './layout.css'
-import Copyright from '../components/copyright.js'
-import { Helmet } from 'react-helmet'
+import Year from '../components/year'
 
-<Helmet title="foo bar" defer={false} />
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -28,7 +26,9 @@ const Layout = ({ children }) => (
         >
           {children}
         </div>
-        <Copyright />
+        <div class="copyright">
+            &copy; Srinivasan Kumaresan <Year /> 
+        </div>
       </>
     )}
   />
