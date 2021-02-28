@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import './layout.css'
-import Copyright from '../components/copyright'
+import Copyright from '../components/copyright.js'
 
 
 const Layout = ({ children }) => (
