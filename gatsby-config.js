@@ -8,9 +8,6 @@ module.exports = {
     author: '@chrisbiscardi',
   },
   plugins: [
-    `gatsby-plugin-material-ui`,
-    `gatsby-plugin-styled-components`,
-
     {
       resolve: `gatsby-plugin-emotion`,
       options: {
