@@ -4,8 +4,8 @@ import { StaticQuery, graphql } from 'gatsby'
 import './layout.css'
 import Year from '../components/year'
 
-
 const Layout = ({ children }) => (
+
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {

@@ -2,35 +2,19 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: 'Srini Kumar',
+    title:'Srini Kumar'
     description:
-      'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
-    author: '@chrisbiscardi',
+      'Srini Kumar, product designer portfolio and blog',
+    author: 'Srini Kumar',
+    siteURL: 'https://www.srini.design',
+    siteLanguage: "en",
+    contactEmail: "hello@srini.design",
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-emotion`,
-      options: {
-        // Accepts the following options, all of which are defined by `@emotion/babel-plugin` plugin.
-        // The values for each key in this example are the defaults the plugin uses.
-        sourceMap: true,
-        autoLabel: "dev-only",
-        labelFormat: `[local]`,
-        cssPropOptimization: true,
-      },
-    },
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-emotion`,
+    'gatsby-plugin-material-ui',
 
-    { resolve: 'gatsby-plugin-material-ui', 
-    // If you want to use styled components you should change the injection order. 
-    options: { 
-      stylesProvider: { injectFirst: true, },
-      },
-    },
-
-
-    {
-      resolve: `gatsby-plugin-styled-components`,
-    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
