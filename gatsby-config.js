@@ -13,6 +13,7 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-emotion`,
     'gatsby-plugin-material-ui',
+    `gatsby-plugin-postcss`,
 
     {
       resolve: `gatsby-plugin-mdx`,
