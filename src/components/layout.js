@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
         <div
           style={{
             paddingTop: '60px',
-            fontFamily: 'Inter',
+            fontFamily: '"Inter", Arial',
           }}
         >
           {children}

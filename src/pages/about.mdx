@@ -1,12 +1,12 @@
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import me from "../images/me.jpeg"
-import ziggy from "../images/ziggy.jpeg"
+import me from "../images/me.webp"
+import ziggy from "../images/ziggy.webp"
 
 <SEO title="About" keywords={['srini', 'kumar', 'designer', 'user', 'experience', 'product', 'interaction', 'gatsby', 'application', 'react']} />
 
-<img src={me} alt="A stunning photograph of Srini Kumar." class="center"/>
+<img loading="eager" src={me} alt="A stunning photograph of Srini Kumar." class="center"/>
 
 ## DESIGN
 
@@ -26,7 +26,7 @@ In 2018, I picked up a book on music theory, took a poetry class, bought a dusty
 My comfort zones are Japanese city pop, David Bowie and Kanye West. Lately, I’ve opened up to jazz and video-game soundtracks. I’ve scientifically proven that I can do more pull-ups (4 instead of 3) while listening to music from the Yakuza series. Check this one out:
 
 <div class="center"> 
-    <iframe src="https://www.youtube-nocookie.com/embed/VD6__C2Ht6M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+    <iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/VD6__C2Ht6M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
 </div>
 
 ## ROBOTS
@@ -44,7 +44,7 @@ These days she politely watches my neighbor tend to her front lawn. We’ve made
 
 Guess who Ziggy is named after?
 
-<img src={ziggy} alt="A stunning photograph of a baby." class="center" />
+<img loading="lazy" src={ziggy} alt="A stunning photograph of a baby." class="center" />
 
 Thank you for your time! Enjoy your stay!
 <Link to="/">Home -></Link>
