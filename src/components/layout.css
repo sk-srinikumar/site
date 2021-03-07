@@ -34,6 +34,9 @@ body {
 .indexChild{
   min-width: 50%;
 }
+.portrait{
+  width: 488px;
+}
 
 .caption{
   font-style: italic;
@@ -734,7 +737,7 @@ pre tt:after {
     font-size: 16px;
   }
 
-  .hero{
+  .hero, .center, .portrait, iframe{
     width: 100%;
     margin-left: 0px;
     height: auto;
@@ -742,15 +745,6 @@ pre tt:after {
 
   .heroMarginBottom{
     margin-bottom: -60px;
-  }
-
-  .center{
-    width: 100%;
-    height: auto;
-  }
-
-  iframe{
-    width: 100%;
   }
 
   .indexParent{
