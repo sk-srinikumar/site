@@ -2,7 +2,7 @@
 @import "../css/typography.css";
 
 html {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   width: 100%;
@@ -13,10 +13,11 @@ html {
   color: rgba(0, 0, 0, 0.4);
   margin-top:60px;
   margin-bottom:180px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial;
 }
 
 body {
+  font-family: "Inter", Arial;
   margin: 0;
   font-size: 14px;
   line-height: 1.6;

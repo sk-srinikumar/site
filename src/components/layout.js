@@ -2,7 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import './layout.css'
+import '../css/typography.css'
 import Year from '../components/year'
+
 
 const Layout = ({ children }) => (
 
@@ -21,7 +23,7 @@ const Layout = ({ children }) => (
         <div
           style={{
             paddingTop: '60px',
-            fontFamily: 'Inter'
+            fontFamily: 'Inter',
           }}
         >
           {children}
