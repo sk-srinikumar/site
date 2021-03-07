@@ -2,8 +2,8 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title:'Srini Kumar',
-    description: 'Srini Kumar, product designer portfolio and blog',
+    title:"Srini Kumar",
+    description: "A Product Designer's Portfolio & Blog",
     author: 'Srini Kumar',
     siteURL: 'https://www.srini.design',
     siteLanguage: "en",
