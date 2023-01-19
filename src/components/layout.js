@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
           {children}
         </div>
         <div class="copyright">
-            &copy; Srinivasan Kumaresan <Year /> 
+            &copy; Seraph Kumar <Year /> 
         </div>
       </>
     )}
