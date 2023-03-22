@@ -35,7 +35,7 @@ body {
   min-width: 50%;
 }
 .portrait{
-  width: 488px;
+  width: 600px;
 }
 
 .caption{
@@ -147,7 +147,7 @@ a {
   -webkit-text-decoration-skip: objects;
   color: #1F45FC;
   text-decoration: underline;
-  font-weight: 500;
+  font-weight: 400;
   transition: color 0.1s ease-in-out;
 }
 
