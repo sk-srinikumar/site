@@ -23,7 +23,7 @@ body {
   line-height: 1.6;
   color: black;
   background-color: #F9F9F9;
-  width: 488px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -145,8 +145,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: black;
-  text-decoration: none;
+  color: #1F45FC;
+  text-decoration: underline;
   font-weight: 500;
   transition: color 0.1s ease-in-out;
 }
@@ -154,7 +154,7 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
-  color: #1F45FC;
+  color: #7f1ffc;
 }
 abbr[title] {
   border-bottom: none;
@@ -409,17 +409,17 @@ h5 {
 h6 {
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 60px;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
+  margin-bottom: 12px;
+  color: black;
   font-family: "Inter", Arial;
-  font-weight: bold;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
-  font-size: 0.78405rem;
+  font-size: 12px;
   line-height: 1.1;
 }
 hgroup {
